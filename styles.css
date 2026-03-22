@@ -1095,6 +1095,7 @@ button {
     width: 45px;
     height: 45px;
     background: var(--color-bg-tertiary);
+    border-radius: 50%;
     /* ERROR 17: Los iconos de redes sociales son cuadrados en vez de círculos
        PISTA: Falta una propiedad de borde para hacer elementos circulares */
     display: flex;
