@@ -217,6 +217,7 @@ button {
        Esto hace que el hover y otros estados se animen suavemente */
     cursor: pointer;
     white-space: nowrap;
+    transition: all var(--transition-base);
 }
 
 .btn--primary {
