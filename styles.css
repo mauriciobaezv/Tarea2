@@ -830,6 +830,8 @@ button {
     /* ERROR 14: Los proyectos no se muestran en columnas, solo apilados
        PISTA: Falta definir cómo se distribuyen las columnas en el grid */
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
     gap: var(--spacing-xl);
 }
 
