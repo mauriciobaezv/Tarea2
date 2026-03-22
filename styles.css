@@ -326,6 +326,8 @@ button {
     width: 0;
     height: 2px;
     background: var(--gradient-primary);
+     transition: width var(--transition-base);
+
     /* ERROR 7 (AVANZADO): La línea debajo del link aparece de golpe sin animación
        SOLUCIÓN: Falta la transición para la propiedad width
        Agregar: transition: width var(--transition-base);
