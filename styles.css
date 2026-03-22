@@ -285,6 +285,7 @@ button {
     /* ERROR 6: Los elementos del nav no están alineados verticalmente al centro
        PISTA: Falta una propiedad de flexbox que alinea items en el eje transversal */
     justify-content: space-between;
+    align-items: center;
     height: 100%;
 }
 
