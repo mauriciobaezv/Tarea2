@@ -564,6 +564,7 @@ button {
 .interest__card {
     background: var(--color-bg-card);
     border: 1px solid var(--color-bg-tertiary);
+    border-radius: var(--radius-lg);
     /* ERROR 11: Las cards de intereses tienen esquinas puntiagudas en vez de redondeadas
        PISTA: Falta la propiedad border-radius */
     padding: var(--spacing-xl);
