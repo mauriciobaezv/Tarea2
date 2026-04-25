@@ -1,0 +1,50 @@
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  background:#0f172a;
+  color:white;
+  padding-top:100px;
+}
+
+.hero__content{
+  max-width:700px;
+}
+
+.hero__greeting{
+  color:#00e5e9;
+  font-size:1.1rem;
+}
+
+.hero__title{
+  font-size:3rem;
+  margin:1rem 0;
+}
+
+.hero__subtitle{
+  font-size:2rem;
+  color:#1e40af;
+}
+
+.hero__description{
+  margin:1rem 0 2rem;
+  color:#cbd5e1;
+}
+
+.hero__buttons{
+  display:flex;
+  gap:1rem;
+}
+
+.btn{
+  background:#00e5e9;
+  color:black;
+  padding:.8rem 1.2rem;
+  border-radius:8px;
+}
+
+.btn2{
+  border:1px solid white;
+  padding:.8rem 1.2rem;
+  border-radius:8px;
+}
