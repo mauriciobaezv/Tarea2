@@ -1,0 +1,59 @@
+.cv{
+  padding:100px 0;
+  background:#0f172a;
+  color:white;
+}
+
+.cv__content{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:2rem;
+}
+
+.subtitle{
+  color:#00e5e9;
+}
+
+.title{
+  font-size:2.4rem;
+  margin:1rem 0;
+}
+
+.description{
+  color:#cbd5e1;
+  margin-bottom:2rem;
+}
+
+.buttons{
+  display:flex;
+  gap:1rem;
+  flex-wrap:wrap;
+}
+
+.btnPrimary{
+  background:#2563eb;
+  padding:.8rem 1.2rem;
+  border-radius:8px;
+}
+
+.btnSecondary{
+  border:1px solid white;
+  padding:.8rem 1.2rem;
+  border-radius:8px;
+}
+
+.socialTitle{
+  margin-bottom:1rem;
+}
+
+.socialLinks{
+  display:flex;
+  flex-direction:column;
+  gap:1rem;
+}
+
+.card{
+  background:#1e293b;
+  padding:1rem;
+  border-radius:10px;
+}
